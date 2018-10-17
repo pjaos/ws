@@ -1,0 +1,10 @@
+Package: python-pbuildtemplate
+Section: Network
+Priority: optional
+Architecture: all
+Essential: no
+Depends: python-pjalib (>= 1.8)
+Installed-Size: 2
+Maintainer: Paul Austen <pausten.os@gmail.com>
+Description: Describe what pbuildtemplate does and any other commands that you install.
+Version: 1.0
