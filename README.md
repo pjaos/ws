@@ -1,16 +1,16 @@
 # A Basic Python web server
 A simple web server for I used for developing a web interface to an embedded 
-device. 
+device.
 
 # Installation
 
 ## Debian package
 
 - Ensure the p3build package is installed. See [https://github.com/pjaos/p3build](https://github.com/pjaos/p3build) for details of this.
-- Run `sudo p3build` in this folder.
-- Run `sudo dpkg -i packages/python-ws-1.0-all.deb`
+- Run `sudo p3build` in this folder to build the package.
+- Run `sudo dpkg -i packages python-ws-1.0-2.noarch.rp`
 
-## Using pip
+## pip
 
 - Run the `sudo pip3 install .` command.
 
@@ -32,5 +32,6 @@ Options:
 
 ```
 
-The `--root` path must be provides an should point to the web server root folder.
+The `--root` path must be provided and should point to the web server root folder.
+
 The `--cgi` folder is optional.
