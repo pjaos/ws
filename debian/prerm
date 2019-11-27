@@ -1,11 +1,2 @@
 #!/bin/sh
 
-/etc/init.d/pbuildtemplate status
-rc=$?
-if [ "$rc" -eq "0" ];
-then
-    /etc/init.d/pbuildtemplate stop
-    echo "pbuildtemplate daemon stopped."
-    update-rc.d pbuildtemplate disable
-    echo "pbuildtemplate will no longer be auto started."
-fi

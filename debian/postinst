@@ -1,31 +1,3 @@
 #!/bin/sh
 
-autostart=false
-while true; do
-    read -p "INPUT: Do you want to start pbuildtemplate every time this computer starts up y/n: " yn
-    case $yn in
-        [Yy]* ) autostart=true; break;;
-        [Nn]* ) break;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
-
-
-
-
-
-
-if $autostartICONS;
-then
-
-    update-rc.d pbuildtemplate defaults
-    update-rc.d pbuildtemplate enable
-    echo "The pbuildtemplate is configured to auto start."
-
-    /etc/init.d/pbuildtemplate start
-    echo "The pbuildtemplate daemon is now running"
-
-fi
-
-
-echo "The pbuildtemplate is now available."
+echo "The ws command is now available."

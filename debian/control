@@ -1,4 +1,4 @@
-Package: python-pbuildtemplate
+Package: python-ws
 Section: Network
 Priority: optional
 Architecture: all
@@ -6,5 +6,5 @@ Essential: no
 Depends: python-pjalib (>= 1.8)
 Installed-Size: 2
 Maintainer: Paul Austen <pausten.os@gmail.com>
-Description: Describe what pbuildtemplate does and any other commands that you install.
+Description: A basic web server.
 Version: 1.0
