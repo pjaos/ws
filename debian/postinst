@@ -1,3 +1,4 @@
 #!/bin/sh
-
-echo "The ws command is now available."
+systemctl daemon-reload
+systemctl start ws
+echo "The ws command is now running."

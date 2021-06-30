@@ -1,0 +1,19 @@
+# vi /etc/systemd/system/multi-user.target.wants/httpd.service
+
+[Unit]
+Description=A basic python http web server.
+After=network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ws --root /www --port 80
+ExecStop=
+ExecReload=
+PrivateTmp=true
+LimitNOFILE=infinity
+KillMode=mixed
+Restart=on-failure
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target
