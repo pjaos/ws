@@ -6,13 +6,9 @@ device.
 
 ## Debian package
 
-- Ensure the p3build package is installed. See [https://github.com/pjaos/p3build](https://github.com/pjaos/p3build) for details of this.
-- Run `sudo p3build` in this folder to build the package.
-- Run `sudo dpkg -i packages python-ws-1.0-2.noarch.rp`
-
-## pip
-
-- Run the `sudo pip3 install .` command.
+- Ensure the pipenv2deb package is installed. See [https://pypi.org/project/pipenv2deb/]pipenv2deb) for details of this.
+- Run `sudo ./build.sh` in this folder to build the package.
+- Run `sudo dpkg -i packages/python-ws-1.1-all.deb`
 
 # Running 
 
