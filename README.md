@@ -1,16 +1,31 @@
 # A Basic Python web server
-A simple web server for I used for developing a web interface to an embedded 
+A simple web server for I used for developing a web interface to an embedded
 device.
 
 # Install
+Python3.9 must be installed on the target system.
 
-- Copy the git repo contents to the target system and enter.
+You can install using pip directly from github using
+
+```
+sudo python3.9 -m pip install git+https://github.com/pjaos/ws.git
+```
+
+Or you can copy the git repo to the target system and enter.
 
 ```
 sudo ./install.sh
 ```
 
 # Uninstall
+
+You can issue the 
+
+```
+sudo python3.9 -m pip uninstall ws
+```
+
+command or run the uninstall script
 
 ```
 sudo ./uninstall.sh
