@@ -52,7 +52,7 @@ def enableAutoStart(user, port, root):
     bootManager = BootManager()
     if user:
         argString = "--port {} --root {}".format(port, root)
-        bootManager.add(user=user, argString=argString, enableSyslog=True)
+        bootManager.add(user=user, argString=argString, enableSyslog=False)
     else:
         raise Exception("--user not set.")
 
