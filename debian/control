@@ -1,9 +1,0 @@
-Package: python-ws
-Section: Network
-Priority: optional
-Architecture: all
-Essential: no
-Installed-Size: 2
-Maintainer: Paul Austen <pausten.os@gmail.com>
-Description: A basic web server.
-Version: 1.4
